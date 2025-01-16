@@ -41,10 +41,32 @@ body {
 }
 
 .cube_pic {
+    background-image: url("images/image-equilibrium.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    border-radius: .7rem;
+    height: 15rem;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+    background-position: center;
+}
+
+
+.cube_pic>svg{
+    display: none;
+}
+
+
+.cube_pic:hover>svg{
+    display: inline;
+
 
 }
+
+
 
 .equilibrium {
     color: white;
@@ -54,7 +76,8 @@ body {
     letter-spacing: .05rem;
     margin: 1rem auto 1rem 0;
 }
-.equilibrium:hover{
+
+.equilibrium:hover {
     color: var(--Cyan);
     cursor: pointer;
     transition: 200ms;
@@ -134,9 +157,9 @@ hr {
     color: white;
     font-weight: 400;
 }
-.jules:hover{
- cursor: pointer;
+
+.jules:hover {
+    cursor: pointer;
     color: var(--Cyan);
     transition: 200ms;
 }
-
