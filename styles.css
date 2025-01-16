@@ -1,0 +1,142 @@
+@import url(https://fonts.bunny.net/css?family=outfit:300);
+@import url(https://fonts.bunny.net/css?family=outfit:400);
+@import url(https://fonts.bunny.net/css?family=outfit:600);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: var(--Very_dark-blue_main-BG);
+}
+
+:root {
+    --Soft_blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very_dark-blue_main-BG: hsl(217, 54%, 11%);
+    --Very_dark-blue_card-BG: hsl(216, 50%, 16%);
+    --Very_dark-blue_line: hsl(215, 32%, 27%);
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 70%;
+    background-color: var(--Very_dark-blue_card-BG);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    box-shadow: 0rem 0rem 0 2rem rgba(0, 0, 0, 0.096);
+    max-width: 20rem;
+
+}
+
+.cube_pic {
+    width: 100%;
+    border-radius: .7rem;
+
+}
+
+.equilibrium {
+    color: white;
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: .05rem;
+    margin: 1rem auto 1rem 0;
+}
+.equilibrium:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.text {
+    color: var(--Soft_blue);
+    font-size: 1.1rem;
+    padding: .5rem 0;
+    font-weight: 30;
+}
+
+.svgs {
+    display: flex;
+    padding: 1.3rem 0;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.eth,
+.days_left {
+    display: flex;
+    align-items: center;
+}
+
+.eth {
+    color: var(--Cyan);
+    font-weight: 600;
+    letter-spacing: .02rem;
+    font-size: .98rem;
+    word-spacing: .1rem;
+}
+
+.eth_svg {
+    margin-right: .5rem;
+}
+
+.days_left {
+    color: var(--Soft_blue);
+    font-size: 1.02rem;
+}
+
+.clock_svg {
+    margin-right: .4rem;
+}
+
+hr {
+    width: 100%;
+    background-color: var(--Soft_blue);
+    height: .01rem;
+    border: none;
+    margin: 1rem 0 .5rem 0;
+}
+
+.creation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1.5rem 0 .5rem 0;
+}
+
+.guy_pfp {
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 1rem;
+    max-width: 2.5rem;
+}
+
+.text_pfp {
+    color: var(--Soft_blue);
+    font-weight: 300;
+    word-spacing: .03rem;
+}
+
+.jules {
+    color: white;
+    font-weight: 400;
+}
+.jules:hover{
+ cursor: pointer;
+    color: var(--Cyan);
+    transition: 200ms;
+}
+
